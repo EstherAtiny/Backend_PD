@@ -1,9 +1,13 @@
 package prototype
+
+import kotlin.random.Random
+
 //esto quiere decir que
 fun main(){
     val standardPriceProducts = PriceList("Standard Price List",products = arrayListOf())
     for (c in 1..5) {
-        val item = ProductItem("Product $c", (c * 2).toDouble())
+        //val item = ProductItem("Product $c", (c * 2).toDouble())
+        val item = ProductItem("Product $c", Random.nextInt(10,500).toDouble())
         standardPriceProducts.addProductItem(item)
     }
     PrototypeFactory.addPrototype(
