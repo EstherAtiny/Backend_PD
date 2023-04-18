@@ -5,10 +5,10 @@ class XBankCreditAdaptee: IBankAdapter{
         val xrequest = XBankCreditRequest(request.customer, request.amount)
 
         val api = XBankCreditAPI()
+        val xResponse =BankCreditResponse()
+        xResponse.approved= api.sendCreditRequest(xrequest)!!.approval
 
-        val xresponse: XBankCreditResponse = api.sendCreditRequest(xrequest)!!
-
-        return BankCreditResponse()
+        return (xResponse)
     }
 
 }
