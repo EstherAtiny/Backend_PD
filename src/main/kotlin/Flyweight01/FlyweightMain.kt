@@ -1,4 +1,4 @@
-package Flyweight
+package Flyweight01
 
 import java.util.*
 import kotlin.collections.ArrayList

@@ -1,6 +1,6 @@
-package Flyweight
+package Flyweight01
 
-import Flyweight.PlayItemFactory.createPlayItem
+import Flyweight01.PlayItemFactory.createPlayItem
 
 class PlayList(private val playListName: String) {
     private val playItems: MutableList<PlayItem?> = ArrayList()

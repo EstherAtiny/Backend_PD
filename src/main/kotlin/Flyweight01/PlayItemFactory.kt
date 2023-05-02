@@ -1,4 +1,4 @@
-package Flyweight
+package Flyweight01
 
 object PlayItemFactory {
     var enableFlyweight = true

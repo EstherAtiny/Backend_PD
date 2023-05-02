@@ -1,4 +1,4 @@
-package Flyweight
+package Flyweight01
 
 class PlayItem {
     private var id: Long? = null
