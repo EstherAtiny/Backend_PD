@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jaxb-core-4.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Escritorio/OCTAVO SEM/BACKEND/jars/jaxb-core-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Escritorio/OCTAVO SEM/BACKEND/jars/jakarta.xml.bind-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Escritorio/OCTAVO SEM/BACKEND/jars/jaxb-runtime-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Escritorio/OCTAVO SEM/BACKEND/jars/kotlin-reflect-1.8.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Escritorio/OCTAVO SEM/BACKEND/jars/log4j-api-2.20.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Escritorio/OCTAVO SEM/BACKEND/jars/log4j-core-2.20.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

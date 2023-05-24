@@ -1,9 +1,5 @@
 import factorymethod.IDBAdapter
-import factorymethod.MySqlDBAdapter
-import factorymethod.OracleDBAdapter
 import factorymethod.PostgreSqlDBAdapter
-import properties.PropertiesUtil
-import java.util.Properties
 
 fun main() {
     /*val property: Properties? = PropertiesUtil
